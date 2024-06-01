@@ -1,7 +1,9 @@
 <?php
 
-
-    $conection = mysqli_connect("localhost", "root", "", "jeli_labs_login-register");
+/*
+Aqui va la conexion con la base de datos, la he censurado por motivos de privacidad
+*/
+    $conection = mysqli_connect("", "", "", "");
     
     /*
     if($conection){
