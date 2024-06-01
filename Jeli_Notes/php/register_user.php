@@ -1,8 +1,9 @@
 <?php
 
     include 'conections.php';
-
-    $conection = mysqli_connect("localhost", "root", "", "jeli_labs_login-register");
+/*
+    Aqui he censurado los datos de la base de datos por motivos de privacidad */
+    $conection = mysqli_connect("", "", "", "");
     $username = $_POST['username'];
     $email = $_POST['email'];
     $password = $_POST['password'];
